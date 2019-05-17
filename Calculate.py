@@ -1,7 +1,7 @@
 from  stack import Stack
 
 def get_expression(get_str):
-    pro = dict(zip('#+-*/', '01122'))
+    pro = dict(zip('+-*/', '01122'))
     out = Stack()
     s = Stack()
     for x in get_str:

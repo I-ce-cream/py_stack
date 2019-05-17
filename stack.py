@@ -17,8 +17,8 @@ class Stack():
     def top(self):
         return self.stack[-1]
 
-pro = dict(zip('+-*/', '1122'))
-print(pro)
+# pro = dict(zip('+-*/', '1122'))
+# print(pro)
 # myStack = Stack()
 #
 # for i in range(6):
