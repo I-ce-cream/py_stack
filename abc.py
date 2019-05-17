@@ -9,7 +9,7 @@ class Stack():
         if self.is_empty():
             return None  #("stack is empty")
         else:
-            return self.stack.pop(\\)
+            return self.stack.pop()
 
     def top(self):
         if self.is_empty():
@@ -27,17 +27,18 @@ class Stack():
         return self.size() == 0
 
     def clean(self):
+        del self.stack[:]
 
 
 
 
-s = Stack()
-s.top()
-s.push(1)
-s.push(2)
-
-s.prtStack()
-s.pop()
-s.prtStack()
-
-print(s.is_empty())
+# s = Stack()
+# s.top()
+# s.push(1)
+# s.push(2)
+#
+# s.prtStack()
+# s.pop()
+# s.prtStack()
+#
+# print(s.is_empty())
