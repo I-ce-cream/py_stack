@@ -2,12 +2,6 @@ class Stack():
     def __init__(self):
         self.stack = []
 
-        def size(self):
-            return len(self.stack)
-
-    def is_empty(self):
-        return self.size() == 0
-
     def size(self):
         return len(self.stack)
 
@@ -32,11 +26,10 @@ class Stack():
     def prtStack(self):
         print(self.stack)
 
-    def clean(self):
+    def clear(self):
         del self.stack[:]
-
-        def clean2(self):
-            self.stack = []
+		#self.stack = []
+            
 
 
 s = Stack()
@@ -53,7 +46,7 @@ s.push(1)
 s.push(2)
 s.push(3)
 s.prtStack()
-s.clean()
+s.clear()
 s.prtStack()
 print(s.size())
 
