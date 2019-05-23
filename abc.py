@@ -29,15 +29,18 @@ class Stack():
     def clear(self):
         del self.stack[:]
 		#self.stack = []
+
+#    def min(self):
+
             
 
 
 s = Stack()
 s.push(1)
-s.puah(2)
+s.push(2)
 s.prtStack()
 print(s.size())
-s.clean2()
+
 print(s.size())
 
 s = Stack()
